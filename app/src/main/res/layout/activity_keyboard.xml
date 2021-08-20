@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <GridLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="4"
+        tools:context=".keyboard">
+
+        <Button
+            android:layout_width="80dp"
+            android:padding="13dp"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/cancel"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:text="@string/cancel"
+            android:state_pressed="true"
+            android:id="@+id/cancel"/>
+        <Button
+            android:layout_width="80dp"
+            android:padding="13dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/options"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:text="@string/braсkets" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="13dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/options"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:text="@string/percent" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="13dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/options"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:text="@string/division" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_7" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_8" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_9" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="13dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/options"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:text="@string/multiplication" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_4" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_5" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_6" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/options"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/key_minus" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_1" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_2" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_3" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/options"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/key_plus" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/key_plus2" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_0" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="14dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/key_comma" />
+        <Button
+            android:layout_width="80dp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_botton"
+            android:textColor="@color/options"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            android:text="@string/key_result" />
+
+
+
+    </GridLayout>
+</FrameLayout>

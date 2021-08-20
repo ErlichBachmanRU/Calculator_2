@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator_2">
         <activity
+            android:name=".result"
+            android:exported="true" />
+        <activity
+            android:name=".keyboard"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
