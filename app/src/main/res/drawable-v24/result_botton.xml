@@ -10,7 +10,7 @@
                     android:width="1dp"
                     android:color="@color/like_black" />
                 <corners android:radius="39dp" />
-                <solid android:color="#50BBBBBB" />
+                <solid android:color="@color/options" />
                 <padding android:bottom="2dp" />
             </shape>
         </item>
