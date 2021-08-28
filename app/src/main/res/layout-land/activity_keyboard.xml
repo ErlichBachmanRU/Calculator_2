@@ -168,13 +168,12 @@
         android:text="@string/key_plus" />
 
     <Button
+        android:id="@+id/btn_result"
         style="@style/Keyboard_buttons_result_land"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
         android:layout_columnWeight="2"
-        android:text="@string/key_result"
-
-        />
+        android:text="@string/key_result" />
 
 </GridLayout>

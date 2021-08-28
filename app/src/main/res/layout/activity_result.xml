@@ -19,7 +19,7 @@
         android:layout_margin="5dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/hey_you"
-        android:text=" "
+        android:text=""
         android:textAlignment="textEnd"
         android:textColor="@color/white"
         android:textSize="30sp" />
