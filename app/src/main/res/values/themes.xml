@@ -1,107 +1,11 @@
 <resources>
     <!-- Base application theme. -->
     <style name="Theme.Calculator_2" parent="Theme.AppCompat.Light.DarkActionBar">
+
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/like_black</item>
-        <item name="colorPrimaryDark">@color/dark_grey</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
-
-    <style name="Keyboard_buttons_options_land">
-        <item name="android:textSize">20sp</item>
-        <item name="android:layout_margin">0dp</item>
-        <item name="android:textColor">@color/options</item>
-        <item name="android:shadowColor">@color/like_black</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:background">@drawable/radius_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Keyboard_buttons_numb_land">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">#FFFF00</item>
-        <item name="android:shadowColor">@color/like_black</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:layout_margin">0dp</item>
-        <item name="android:background">@drawable/radius_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Keyboard_buttons_cancel_land">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/cancel</item>
-        <item name="android:shadowColor">@color/white</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:layout_margin">0dp</item>
-        <item name="android:background">@drawable/result_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Keyboard_buttons_result_land">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:shadowColor">@color/like_black</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:layout_margin">0dp</item>
-        <item name="android:background">@drawable/result_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Keyboard_buttons_options">
-        <item name="android:textSize">30sp</item>
-        <item name="android:layout_margin">1dp</item>
-        <item name="android:textColor">@color/options</item>
-        <item name="android:shadowColor">@color/like_black</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:background">@drawable/radius_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Keyboard_buttons_numb">
-        <item name="android:textSize">30sp</item>
-        <item name="android:textColor">#FFFF00</item>
-        <item name="android:shadowColor">@color/like_black</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:layout_margin">1dp</item>
-        <item name="android:background">@drawable/radius_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Keyboard_buttons_cancel">
-        <item name="android:textSize">30sp</item>
-        <item name="android:textColor">@color/cancel</item>
-        <item name="android:shadowColor">@color/white</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:layout_margin">1dp</item>
-        <item name="android:background">@drawable/radius_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Keyboard_buttons_result">
-        <item name="android:textSize">30sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:shadowColor">@color/like_black</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">8</item>
-        <item name="android:layout_margin">1dp</item>
-        <item name="android:background">@drawable/result_botton</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
 </resources>
