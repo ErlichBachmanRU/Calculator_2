@@ -16,9 +16,7 @@
         android:layout_row="0"
         android:layout_rowWeight="2"
         android:layout_column="0"
-        android:layout_margin="5dp"
         android:layout_marginTop="10dp"
-        android:fontFamily="@font/hey_you"
         android:text=""
         android:textAlignment="textEnd"
         android:textColor="@color/white"
@@ -34,24 +32,23 @@
         android:layout_column="0"
         android:layout_margin="5dp"
         android:layout_marginTop="2dp"
-        android:fontFamily="@font/hey_you"
         android:text="10"
         android:textAlignment="textEnd"
         android:textColor="@color/white"
-        android:textSize="45sp" />
+        android:textSize="25sp" />
 
 
     <Button
         android:id="@+id/clean"
-        android:layout_width="45dp"
+        android:layout_width="25dp"
         android:layout_row="2"
         android:layout_column="0"
         android:layout_gravity="end"
         android:layout_margin="5dp"
         android:background="@drawable/ic_round_backspace"
-        android:minHeight="45dp"
+        android:minHeight="25dp"
         android:textColor="@color/cancel"
-        android:textSize="15sp"
+        android:textSize="10sp"
         android:textStyle="bold" />
 
 </GridLayout>

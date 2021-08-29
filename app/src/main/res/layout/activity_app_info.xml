@@ -9,9 +9,10 @@
         android:id="@+id/some_info"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fontFamily="@font/hey_you"
         android:gravity="center"
         android:text="Some App Info (create later)"
-        android:textColor="@color/like_black"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
 

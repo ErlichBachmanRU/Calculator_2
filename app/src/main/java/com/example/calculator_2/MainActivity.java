@@ -7,46 +7,77 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.calculator_2.calculator.Calculator;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btn0,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn1;
+    private Calculator calculator;
 
-    private TextView displayResultsView;
-    private DisplayResults displayResults = new DisplayResults();
-    private static final String ARG_DISPRES_VALUE = "ARG_DISPRES_VALUE";
-
+    private TextView userinput ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        displayResultsView = findViewById(R.id.user_input);
+        int[] idsNumb = new int[]{
+                R.id.key_0,
+                R.id.key_1,
+                R.id.key_2,
+                R.id.key_3,
+                R.id.key_4,
+                R.id.key_5,
+                R.id.key_6,
+                R.id.key_7,
+                R.id.key_8,
+                R.id.key_9,
+        };
 
-        if (savedInstanceState == null) {
+        int[] idsOperators = new int[]{
+                R.id.division,
+                R.id.key_plus,
+                R.id.multiplication,
+                R.id.key_minus,
+                R.id.btn_result,
+                R.id.percent
+        };
 
-            displayResults = new DisplayResults();
+        userinput = findViewById(R.id.user_input);
+        calculator = new Calculator();
 
-        } else {
-            displayResults = savedInstanceState.getParcelable(ARG_DISPRES_VALUE);
-        }
-
-
-        findViewById(R.id.key_0).setOnClickListener(new View.OnClickListener() {
+        View.OnClickListener numbButtonClicked = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                displayResults.increase();
-                updateDisplayResults();
+                calculator.numbClicked(view.getId());
+                userinput.setText(calculator.getText());
+            }
+        };
+
+        View.OnClickListener operationButtonClicked = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                calculator.operatorClicked(view.getId());
+                userinput.setText(calculator.getText());
+            }
+        };
+        findViewById(R.id.cancel).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                calculator.reset();
+                userinput.setText(calculator.getText());
             }
         });
 
-    }
+        for (int i = 0; i < idsNumb.length; i++) {
+            findViewById(idsNumb[i]).setOnClickListener(numbButtonClicked);
+        }
 
-    private void updateDisplayResults() {
-        displayResultsView.setText(String.valueOf(111));
+        for (int i = 0; i < idsOperators.length; i++) {
+            findViewById(idsOperators[i]).setOnClickListener(operationButtonClicked);
+        }
+
     }
 
 
@@ -97,7 +128,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putParcelable(ARG_DISPRES_VALUE, displayResults );
     }
 
     @Override

@@ -4,16 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="5dp"
-    android:orientation="vertical"
     android:background="@color/like_black_98"
+    android:orientation="vertical"
     android:paddingBottom="5dp">
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="5dp"
         android:layout_marginTop="0dp"
-
         android:columnCount="4"
         android:rowCount="5"
         tools:ignore="UselessParent">
@@ -207,13 +205,12 @@
             />
 
         <Button
+            android:id="@+id/btn_result"
             style="@style/Keyboard_buttons_result"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_result"
-
-            />
+            android:text="@string/key_result" />
 
     </GridLayout>
 </LinearLayout>

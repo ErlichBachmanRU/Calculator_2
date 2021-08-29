@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="true"
+    android:background="@color/like_black_98"
+    android:columnCount="8"
+    android:orientation="horizontal"
+    android:rowCount="3">
+
+
+    <Button
+        android:id="@+id/key_6"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="horizontal"
+        android:text="@string/key_6" />
+
+    <Button
+        android:id="@+id/key_7"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_7" />
+
+    <Button
+        android:id="@+id/key_8"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_8" />
+
+    <Button
+        android:id="@+id/key_9"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_9" />
+
+    <Button
+        android:id="@+id/cancel"
+        style="@style/Keyboard_buttons_cancel_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/braсkets"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/braсkets" />
+
+    <Button
+        android:id="@+id/percent"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/percent" />
+
+    <Button
+        android:id="@+id/key_5"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_5" />
+
+    <Button
+        android:id="@+id/key_4"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_4" />
+
+    <Button
+        android:id="@+id/key_3"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_3" />
+
+    <Button
+        android:id="@+id/key_2"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_2" />
+
+
+    <Button
+        android:id="@+id/multiplication"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/multiplication" />
+
+    <Button
+        android:id="@+id/key_minus"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_minus" />
+
+    <Button
+        android:id="@+id/division"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/division" />
+
+
+    <Button
+        android:id="@+id/key_plus2"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_plus2" />
+
+    <Button
+        android:id="@+id/key_1"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_1" />
+
+    <Button
+        android:id="@+id/key_0"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_0" />
+
+    <Button
+        android:id="@+id/key_comma"
+        style="@style/Keyboard_buttons_numb_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="@string/key_comma" />
+
+    <Button
+        android:id="@+id/key_plus"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="@string/key_plus" />
+
+    <Button
+        android:id="@+id/btn_result"
+        style="@style/Keyboard_buttons_result_land"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="@string/key_result" />
+
+</GridLayout>

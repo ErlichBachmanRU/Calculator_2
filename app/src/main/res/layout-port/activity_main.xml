@@ -4,14 +4,15 @@
     android:id="@+id/main_activity"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/like_black">
+    android:background="@color/bgr_color_act_main"
+    tools:ignore="MissingDefaultResource">
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:rowCount="2"
         android:background="@drawable/skull"
         android:orientation="vertical"
+        android:rowCount="2"
         tools:context=".MainActivity">
 
         <include
